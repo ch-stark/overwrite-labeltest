@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - image: nginx
-    name: nginx-frontend2
+    name: nginx-backend2
   - image: mysql
     name: mysql-backend2
