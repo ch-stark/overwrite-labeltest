@@ -6,7 +6,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/github-path: config/
 spec:
-  channel: flexran-performance
+  channel: performance-addon/flexran-performance
   placement:
     placementRef:
       kind: PlacementRule
