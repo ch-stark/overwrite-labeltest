@@ -1,15 +1,10 @@
-
 apiVersion: apps.open-cluster-management.io/v1
-kind: Subscription
+kind: PlacementRule
 metadata:
-  name: flexran-performance
+  name: apply-performance-to-ready-clusters
   namespace: openshift-performance-addon
-  annotations:
-    apps.open-cluster-management.io/github-path: config/
 spec:
-  channel: flexran-workloads/acm-gitops-github
-  name: flexran-performance
-  placement:
-    placementRef:
-      kind: PlacementRule
-     
+  clusterConditions:
+    - type: OK
+  clusterSelector:
+    matchExpressions: []
