@@ -12,7 +12,7 @@ data:
       "kind": "AdmissionReview",
       "response": response,
     }
-    default response = {"allowed": true}
+    default response = {"allowed": false}
     response = {
         "allowed": false,
         "status": {
