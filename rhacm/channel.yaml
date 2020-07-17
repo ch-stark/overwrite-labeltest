@@ -1,1 +1,9 @@
 
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: acm-gitops-github
+  namespace: flexran-workloads
+spec:
+  type: GitHub
+  pathname: https://github.com/ch-stark/overwrite-labeltest.git
