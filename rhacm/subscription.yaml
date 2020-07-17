@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: flexran-performance
-  namespace: openshift-performance-addon
+  namespace: performance-addon
   annotations:
     apps.open-cluster-management.io/github-path: cluster_configuration/sites/sample_site/performance_profile/
 spec:
