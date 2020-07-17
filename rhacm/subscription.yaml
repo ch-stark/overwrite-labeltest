@@ -6,8 +6,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/github-path: config/
 spec:
-  channel: acm-gitops-github
-  name: flexran-performance
+  channel: flexran-performance
   placement:
     placementRef:
       kind: PlacementRule
