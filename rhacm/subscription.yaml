@@ -12,6 +12,6 @@ spec:
     placementRef:
       kind: PlacementRule
       name: apply-performance-to-ready-clusters
-      
-
+      apiGroup: apps.open-cluster-management.io
+    
 
