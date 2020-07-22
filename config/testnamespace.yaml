@@ -6,7 +6,7 @@ metadata:
     openshift.io/sa.scc.supplemental-groups: 1000600000/10000
     openshift.io/sa.scc.uid-range: 1000600000/10000
   labels:
-    env: propd
+    env: prod
   name: testlabel
   resourceVersion: "323974"
 spec:
