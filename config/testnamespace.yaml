@@ -7,7 +7,7 @@ metadata:
     openshift.io/sa.scc.uid-range: 1000600000/10000
   labels:
     env: prod
-  name: testlabel
+    name: testlabel
   resourceVersion: "323974"
 spec:
   finalizers:
