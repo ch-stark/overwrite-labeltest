@@ -5,6 +5,8 @@ metadata:
   namespace: performance-addon
 spec:
   clusterConditions:
-    - type: OK
+  - status: "True"
+    type: ManagedClusterConditionAvailable
   clusterSelector:
-    matchExpressions: []
+    matchExpressions:
+      - {key: name, operator: In, values: ["spoke451"]}
